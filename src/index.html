@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack - The bundler</title>
+</head>
+
+<body  style="background-color: bisque;">
+    <div class='main'>
+        <h1 class="header">Paint App</h1>
+        <div id="theDude" class="row button">
+            <button id="rectButton" class="btn btn-1" type="rect"> Rect</button>
+            <button id="circleButton" class="btn btn-2" type="circle"> Circle</button>
+            <button id="lineButton" class="btn btn-3" type="line"> Line</button>
+            <button id="pencilButton" class="btn btn-4" type="line"> Brush</button>
+            <button id="piechartButton" class="btn btn-1" type="line"> Pie Chart</button>
+            <button id="hexagenButton" class="btn btn-1" type="line"> Hexagen</button>
+        </div>
+        <div class="row">
+            <div class="canvas column left">
+                <canvas id="my-canvas" width="1100" height="650" style="background-color: aquamarine;"></canvas>
+            </div>
+            <div class="color column right">
+                <button id="clear" class="btn btn-5">clear</button>
+                <div class="colorInput">
+                <label for="pen-color">Select Colors</label>
+                <div>
+                    <div class="colorSelectInput">
+                        <input type="color" id="pen-color"/>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+</body>
+
+</html>
