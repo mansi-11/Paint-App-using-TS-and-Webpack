@@ -7,7 +7,7 @@ body {
     border: 1px solid #000;
   }
   #my-canvas:active {
-    cursor: crosshair;
+    cursor: crosshair; 
   }
   .header{
     text-align: center;
